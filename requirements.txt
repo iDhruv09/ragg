@@ -1,0 +1,31 @@
+streamlit==1.39.0
+python-dotenv==1.0.1
+
+# LangChain core
+langchain==0.3.2
+langchain-core==0.3.15
+langchain-community==0.3.7
+langchain-text-splitters==0.3.0
+
+# Google Gemini
+langchain-google-genai==3.0.0
+google-generativeai==0.8.3
+
+# Vectorstore + embeddings
+chromadb==0.5.5
+sentence-transformers==3.2.1
+huggingface-hub==0.25.2
+langchain-huggingface==0.1.0
+
+# Document loaders (optional but safe)
+pypdf==5.1.0
+docx2txt==0.8
+
+# Required by Chroma
+onnxruntime==1.18.0
+uvicorn==0.30.3
+fastapi==0.111.0
+
+# Misc dependencies
+requests==2.32.3
+protobuf==5.28.2
